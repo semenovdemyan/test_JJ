@@ -3,7 +3,6 @@
 </template>
 
 <script setup>
-import { defineEmits } from 'vue';
 import { Menu } from '@element-plus/icons-vue';
 
 const emit = defineEmits(['toggleDrawer']);
