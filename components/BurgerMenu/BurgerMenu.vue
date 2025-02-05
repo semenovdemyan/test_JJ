@@ -1,15 +1,16 @@
-<!-- components/BurgerMenu.vue -->
 <template>
-  <el-button class="burger-button" @click="toggleDrawer" icon="el-icon-menu"></el-button>
+  <el-button :class="$style.burgerButton" @click="toggleDrawer" :icon="Menu" circle />
 </template>
 
 <script setup>
-import { defineProps, defineEmits } from 'vue';
-import './BurgerMenu.module.scss';
+import { defineEmits } from 'vue';
+import { Menu } from '@element-plus/icons-vue';
 
-const emit = defineEmits();
+const emit = defineEmits(['toggleDrawer']);
 
 const toggleDrawer = () => {
   emit('toggleDrawer');
 };
 </script>
+
+<style module src="./BurgerMenu.module.scss" lang="scss" />

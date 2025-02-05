@@ -1,13 +1,13 @@
 <template>
-  <div />
 </template>
 
 <script lang="ts">
 import { defineComponent } from 'vue';
+import { useRoute } from 'vue-router';
 
 export default defineComponent({
   name: 'IndexPage',
-  layout: 'default',
+  layout: 'default',  // Используем layout с Header
   setup() {
     const route = useRoute();
 
@@ -17,6 +17,3 @@ export default defineComponent({
   },
 });
 </script>
-
-<style scoped>
-</style>

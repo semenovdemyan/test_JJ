@@ -8,8 +8,9 @@
   </el-drawer>
 </template>
 
-<script setup>
+<script setup lang="ts">
 import { ref, defineEmits } from 'vue';
+import { ElDrawer, ElMenu, ElMenuItem } from 'element-plus';
 import './MobileDrawer.module.scss';
 
 const emit = defineEmits();
@@ -22,8 +23,10 @@ const handleCloseDrawer = () => {
   emit('updateDrawerVisible', drawerVisible.value);
 };
 
-const handleSelect = (index) => {
+const handleSelect = (index: string) => {
   activeMenu.value = index;
   emit('updateDrawerVisible', false);
 };
 </script>
+
+<style module src="./MobileDrawer.module.scss" lang="scss" />
