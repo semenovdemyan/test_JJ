@@ -1,16 +1,7 @@
 <template>
   <section :class="$style.main">
-    <div :class="$style.tickerWrapper">
-      <div :class="$style.ticker">
-        <template v-for="(item, index) in duplicatedTickerTexts" :key="index">
-          <span v-if="index % 2 === 0" :class="$style.tickerItem">
-            {{ item }}
-          </span>
-          <img v-else :src="svgIcon" alt="icon" :class="$style.tickerItem" />
-        </template>
-      </div>
-    </div>
-
+    <!-- Заменяем tickerWrapper на изображение -->
+    <img :src="verticalIcon" alt="vertical" :class="$style.tickerItem" />
     <div :class="$style.content">
       <div>
         <iframe id="videoPlayer" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
@@ -33,16 +24,11 @@
 </template>
 
 <script setup lang="ts">
-import { computed } from 'vue';
+// import { computed } from 'vue';
 import data from './info.json';
 import advantagesData from './advantages/advantagesData.json';
-import svgIcon from '../../assets/images/icon.svg';
+import verticalIcon from '../../assets/images/vertical.svg'; // Добавляем импорт для vertical.svg
 
-const tickerTexts = data.tickerTexts.map(text => text.toUpperCase());
-
-const duplicatedTickerTexts = computed(() => [...tickerTexts, ...tickerTexts]);
-
-// Очищаем title от тегов и заменяем пробелы на неразрывные
 const title = data.title.replace(/<[^>]*>/g, '').toUpperCase().replace(/ /g, '\u00A0');
 const videoUrl = data.videoUrl;
 

@@ -4,6 +4,7 @@
   justify-content: space-between;
   height: 200vh;
   min-height: fit-content;
+  padding: 0 112px;
 }
 
 .tickerWrapper {
@@ -18,17 +19,12 @@
   flex-direction: column;
   position: absolute;
   width: 100%;
-  animation: tickerMove 6s linear infinite;
 }
 
 .tickerItem {
-  display: block;
-  text-align: center;
-  white-space: nowrap;
-  transform: rotate(-90deg);
-  margin: 10px 0;
+  display: flex;
   font-size: 14px;
-  font-weight: bold;
+  top: 0;
 }
 
 .tickerItem svg {
@@ -58,4 +54,5 @@ iframe {
   width: 100%;
   // min-height: 100vh;
   object-fit: cover;
+  margin-bottom: 40px;
 }

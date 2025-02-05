@@ -1,6 +1,16 @@
 @use './normalize' as *;
 @use './mixins' as *;
-@use './variables' as *;
+@use './variables' as var;
+
+/* DrukCyr */
+@font-face {
+  font-family: 'DrukCyr';
+  src:
+    url('~/assets/fonts/drukwidecyr-medium.woff') format('woff'),
+    url('~/assets/fonts/DrukCyr-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
 
 /* Montserrat */
 @font-face {
@@ -31,20 +41,21 @@
   font-weight: 900;
   font-style: normal;
 }
-
-/* DrukCyr */
-@font-face {
-  font-family: 'DrukCyr';
-  src:
-    url('~/assets/fonts/drukwidecyr-medium.woff') format('woff'),
-    url('~/assets/fonts/DrukCyr-Medium.ttf') format('truetype');
-  font-weight: 500;
-  font-style: normal;
-}
-
+// СБРОС СТИЛЕЙ И ОТСТУПОВ
 * {
-  font-family: 'DrukCyr', 'Roboto', 'Helvetica', sans-serif;
-}
-.el-header {
+  margin: 0;
   padding: 0;
+  font-size: 0;
+  font-size: initial;
+  box-sizing: border-box;
+  font-family: var.$font-main;
+}
+
+a {
+  text-decoration: none;
+  color: var.$text-color;
+}
+
+body {
+  background: var.$bg-color;
 }
