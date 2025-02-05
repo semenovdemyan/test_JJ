@@ -4,12 +4,11 @@
       <el-header>
         <Header />
       </el-header>
-      <el-container>
+      <el-container class="main-container">
         <el-aside width="200px">Aside</el-aside>
         <el-container>
           <el-main>
             <slot />
-            <p>Main</p>
           </el-main>
         </el-container>
       </el-container>
@@ -20,7 +19,8 @@
 
 <script setup>
 import Header from '~/components/Header/Header.vue';
-import Aside from '~/components/Aside/Aside.vue';
+// import Aside from '~/components/Aside/Aside.vue';
+// import Footer from '~/components/Footer/Footer.vue';
 </script>
 
 <style scoped>
@@ -34,13 +34,17 @@ import Aside from '~/components/Aside/Aside.vue';
   text-align: center;
 }
 
+.main-container {
+  padding-top: 37px;
+}
+
 .el-aside {
   text-align: center;
   line-height: 200px;
 }
 
 .el-main {
-  text-align: center;
-  line-height: 160px;
+  padding: 0;
+  overflow: hidden;
 }
 </style>

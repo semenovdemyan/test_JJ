@@ -1,0 +1,66 @@
+[
+  {
+    "header": "26",
+    "span2": "ПАРКОВ",
+    "advLink": "#",
+    "linkText": "ПОСМОТРЕТЬ АДРЕСА",
+    "Theme": "",
+    "contentImage": "",
+    "bgImage": ""
+  },
+  {
+    "header": "800+",
+    "span2": "АТТРАКЦИОНОВ",
+    "advLink": "#",
+    "linkText": "ВО ВСЕХ ПАРКАХ",
+    "Theme": "",
+    "contentImage": "",
+    "bgImage": ""
+  },
+  {
+    "header": "200+",
+    "span2": "БАНКЕТНЫХ",
+    "advLink": "#",
+    "linkText": "ВО ВСЕХ ПАРКАХ",
+    "Theme": "",
+    "contentImage": "",
+    "bgImage": ""
+  },
+  {
+    "header": "СЕМЕЙНЫЕ",
+    "span2": "РЕСТОРАНЫ",
+    "advLink": "#",
+    "linkText": "ВО ВСЕХ ПАРКАХ",
+    "Theme": "",
+    "contentImage": "",
+    "bgImage": ""
+  },
+  {
+    "header": "11",
+    "span2": "ПРЕМИАЛЬНЫХ<br>РЕСТОРАНОВ<br>FAMILY VILLA",
+    "advLink": "#",
+    "linkText": "ПОДРОБНЕЕ",
+    "Theme": "",
+    "contentImage": "",
+    "bgImage": ""
+  },
+  {
+    "span1": "БЕСПЛАТНЫЕ",
+    "header": "ПРАЗДНИКИ",
+    "span2": "И МАСТЕР-КЛАССЫ",
+    "advLink": "#",
+    "linkText": "КУПИТЬ БИЛЕТЫ",
+    "Theme": "",
+    "contentImage": "",
+    "bgImage": ""
+  },
+  {
+    "header": "300+",
+    "span2": "АНИМАТОРОВ КВЕСТОВ И ШОУ-ПРОГРАММ",
+    "advLink": "#",
+    "linkText": "ПОДРОБНЕЕ",
+    "Theme": "",
+    "contentImage": "",
+    "bgImage": ""
+  }
+]

@@ -1,11 +1,13 @@
 <template>
-  <el-button :class="$style.burgerButton" @click="toggleDrawer" :icon="Menu" circle />
+  <el-button type="button" :class="$style.burgerButton" @click="toggleDrawer" :icon="Menu" circle />
 </template>
 
-<script setup>
+<script setup lang="ts">
 import { Menu } from '@element-plus/icons-vue';
 
-const emit = defineEmits(['toggleDrawer']);
+const emit = defineEmits<{
+  (e: 'toggleDrawer'): void;
+}>();
 
 const toggleDrawer = () => {
   emit('toggleDrawer');
