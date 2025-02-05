@@ -1,0 +1,18 @@
+.el-drawer {
+  z-index: 100;
+}
+
+.el-menu-vertical {
+  background-color: #f4f4f4;
+  border-right: 1px solid #e0e0e0;
+}
+
+.el-menu-item {
+  padding: 10px 20px;
+  font-size: 16px;
+  color: #333;
+
+  &:hover {
+    background-color: #e0e0e0;
+  }
+}

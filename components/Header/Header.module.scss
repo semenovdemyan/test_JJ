@@ -1,0 +1,25 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333;
+  color: white;
+  padding: 0 20px;
+}
+
+.menu {
+  display: flex;
+}
+
+.menu .el-menu-item {
+  color: white;
+}
+
+.menu .el-menu-item.is-active {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.logo img {
+  height: 40px;
+}

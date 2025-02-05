@@ -2,6 +2,12 @@
 
 Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
 
+
+## Directory Structure
+
+https://nuxt.com/docs/guide/directory-structure/pages
+
+
 ## Setup
 
 Make sure to install dependencies:
@@ -10,13 +16,13 @@ Make sure to install dependencies:
 # npm
 npm install
 
-# pnpm
+# or pnpm
 pnpm install
 
-# yarn
+# or yarn
 yarn install
 
-# bun
+# or bun
 bun install
 ```
 
@@ -28,13 +34,13 @@ Start the development server on `http://localhost:3000`:
 # npm
 npm run dev
 
-# pnpm
+# or pnpm
 pnpm dev
 
-# yarn
+# or yarn
 yarn dev
 
-# bun
+# or bun
 bun run dev
 ```
 
@@ -46,13 +52,13 @@ Build the application for production:
 # npm
 npm run build
 
-# pnpm
+# or pnpm
 pnpm build
 
-# yarn
+# or yarn
 yarn build
 
-# bun
+# or bun
 bun run build
 ```
 
@@ -62,13 +68,13 @@ Locally preview production build:
 # npm
 npm run preview
 
-# pnpm
+# or pnpm
 pnpm preview
 
-# yarn
+# or yarn
 yarn preview
 
-# bun
+# or bun
 bun run preview
 ```
 

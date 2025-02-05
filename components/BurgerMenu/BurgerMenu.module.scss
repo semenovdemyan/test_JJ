@@ -1,0 +1,15 @@
+.burger-button {
+  display: none;
+  background: transparent;
+  border: none;
+  padding: 0;
+  font-size: 24px;
+
+  .el-icon-menu {
+    color: #c43939;
+  }
+
+  @media (max-width: 768px) {
+    display: block;
+  }
+}
