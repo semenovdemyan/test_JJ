@@ -28,19 +28,36 @@ import Header from '~/components/Header/Header.vue';
   min-height: 88vh;
 }
 
+.el-header {
+  position: fixed;
+
+}
+
 .el-header,
 .el-footer {
+  z-index: 20;
   padding: 0;
   text-align: center;
+
+}
+
+.el-footer {
+  background: #fff;
 }
 
 .main-container {
-  padding-top: 37px;
+  /* padding-top: 37px; */
 }
 
 .el-aside {
   text-align: center;
   line-height: 200px;
+  position: fixed;
+  z-index: 10;
+  background: #000;
+  height: 100%;
+  width: 64px;
+
 }
 
 .el-main {
