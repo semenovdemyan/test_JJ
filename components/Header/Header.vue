@@ -21,9 +21,7 @@
         <div>
           <BurgerMenu @toggle="isMenuOpen = !isMenuOpen" />
         </div>
-        <span>
-          МЕНЮ
-        </span>
+
       </div>
 
       <!-- Мобильное меню -->

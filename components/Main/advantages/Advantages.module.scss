@@ -1,0 +1,50 @@
+@use '../../../assets/scss/variables.scss' as var;
+
+.advantages {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 0 104px 24px;
+}
+
+.advantages__item {
+  width: 344px;
+  height: 240px;
+  padding-left: 40px;
+  text-align: left;
+  transition: transform 0.3s ease;
+}
+
+.advantages__image {
+  max-width: 100px;
+  margin-bottom: 10px;
+}
+
+.advantages__header {
+  font-size: 40px;
+  margin-bottom: 6px;
+  font-family: var.$font-third;
+}
+
+.advantages__link {
+  display: inline-block;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+@media (max-width: 1024px) {
+  .advantages__item {
+    flex: 1 1 calc(50% - 20px);
+  }
+}
+
+@media (max-width: 600px) {
+  .advantages {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .advantages__item {
+    flex: 1 1 100%;
+  }
+}

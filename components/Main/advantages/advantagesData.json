@@ -4,45 +4,45 @@
     "span2": "ПАРКОВ",
     "advLink": "#",
     "linkText": "ПОСМОТРЕТЬ АДРЕСА",
-    "Theme": "",
-    "contentImage": "",
-    "bgImage": ""
+    "theme": "dark",
+    "contentImage": "/images/content1.png",
+    "bgColor": "accent-color3"
   },
   {
     "header": "800+",
     "span2": "АТТРАКЦИОНОВ",
     "advLink": "#",
     "linkText": "ВО ВСЕХ ПАРКАХ",
-    "Theme": "",
-    "contentImage": "",
-    "bgImage": ""
+    "theme": "",
+    "contentImage": "/images/content2.png",
+    "bgColor": "accent-color4"
   },
   {
     "header": "200+",
     "span2": "БАНКЕТНЫХ",
     "advLink": "#",
     "linkText": "ВО ВСЕХ ПАРКАХ",
-    "Theme": "",
-    "contentImage": "",
-    "bgImage": ""
+    "theme": "",
+    "contentImage": "/images/content3.png",
+    "bgColor": "accent-color5"
   },
   {
     "header": "СЕМЕЙНЫЕ",
     "span2": "РЕСТОРАНЫ",
     "advLink": "#",
     "linkText": "ВО ВСЕХ ПАРКАХ",
-    "Theme": "",
-    "contentImage": "",
-    "bgImage": ""
+    "theme": "",
+    "contentImage": "/images/content4.png",
+    "bgColor": "accent-color2"
   },
   {
     "header": "11",
     "span2": "ПРЕМИАЛЬНЫХ<br>РЕСТОРАНОВ<br>FAMILY VILLA",
     "advLink": "#",
     "linkText": "ПОДРОБНЕЕ",
-    "Theme": "",
-    "contentImage": "",
-    "bgImage": ""
+    "theme": "",
+    "contentImage": "/images/content5.png",
+    "bgColor": "text-color"
   },
   {
     "span1": "БЕСПЛАТНЫЕ",
@@ -50,17 +50,17 @@
     "span2": "И МАСТЕР-КЛАССЫ",
     "advLink": "#",
     "linkText": "КУПИТЬ БИЛЕТЫ",
-    "Theme": "",
-    "contentImage": "",
-    "bgImage": ""
+    "theme": "",
+    "contentImage": "/images/content6.png",
+    "bgColor": "accent-color"
   },
   {
     "header": "300+",
     "span2": "АНИМАТОРОВ КВЕСТОВ И ШОУ-ПРОГРАММ",
     "advLink": "#",
     "linkText": "ПОДРОБНЕЕ",
-    "Theme": "",
-    "contentImage": "",
-    "bgImage": ""
+    "theme": "dark",
+    "contentImage": "/images/content7.png",
+    "bgColor": "accent-color3"
   }
 ]

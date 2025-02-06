@@ -1,5 +1,5 @@
 <template>
-  <el-button type="button" :class="$style.burgerButton" @click="toggleDrawer" :icon="Menu" circle />
+  <el-button type="default" :class="$style.burgerButton" @click="toggleDrawer" :icon="Menu" circle />
 </template>
 
 <script setup lang="ts">

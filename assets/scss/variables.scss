@@ -7,9 +7,12 @@ $accent-color3: #abec20;
 $accent-color4: #0267ff;
 $accent-color5: #f55e1d;
 $tr: transparent;
+$blur: (
+  background: rgba(255, 255, 255, 0.6),
+  backdrop-filter: blur(10px),
+);
 
 // Шрифты
-// На макете есть шрифт того же семейства Evolventa, добавлять не стал
 $font-main: 'DrukCyr', Helvetica, sans-serif;
 $font-secondary: 'NunitoSans', Helvetica, sans-serif;
 $font-third: 'Montserrat', Helvetica, sans-serif;
@@ -23,3 +26,18 @@ $tablet-max: 1365px;
 
 $desktop-min: 1366px;
 $desktop-max: 1920px;
+
+$bgColors: (
+  'accent-color': $accent-color,
+  'accent-color2': $accent-color2,
+  'accent-color3': $accent-color3,
+  'accent-color4': $accent-color4,
+  'accent-color5': $accent-color5,
+  'text-color': $text-color,
+);
+
+// @each $name, $value in $bgColors {
+//   .advantages__item--#{$name} {
+//     background-color: $value;
+//   }
+// }

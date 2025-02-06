@@ -11,7 +11,7 @@ export default defineNuxtConfig({
   ],
   devtools: { enabled: true },
   css: ['~/assets/scss/globals.scss'],
-  plugins: ['~/plugins/element-plus.ts'],
+  plugins: ['~/plugins/element-plus.ts', '~/plugins/disableZoom.ts'],
   app: {
     head: {
       title: 'Joki Joya',
@@ -34,6 +34,12 @@ export default defineNuxtConfig({
             'Парк развлечений, детский центр, аттракционы, игровые автоматы',
         },
         { name: 'author', content: 'joki-joya.ru' },
+        // Отсутствие масштабирования при скролле
+        {
+          name: 'viewport',
+          content:
+            'width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no',
+        },
 
         // Open Graph (для социальных сетей)
         { property: 'og:title', content: 'Joki Joya' },
