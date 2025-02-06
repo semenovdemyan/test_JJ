@@ -50,10 +50,16 @@
   box-sizing: border-box;
   font-family: var.$font-main;
 }
+ul {
+  list-style-type: none;
+}
 
 a {
   text-decoration: none;
   color: var.$text-color;
+}
+[flex] {
+  display: flex;
 }
 
 body {

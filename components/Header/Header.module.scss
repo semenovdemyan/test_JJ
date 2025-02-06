@@ -1,6 +1,7 @@
 @use '~/assets/scss/variables.scss' as var;
 
 .header {
+  z-index: 100;
   position: fixed;
   display: flex;
   flex-grow: 1;

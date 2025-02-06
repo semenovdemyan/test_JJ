@@ -5,17 +5,22 @@
         <Header />
       </el-header>
       <el-container class="main-container">
-        <el-aside width="200px">Aside</el-aside>
+        <el-aside>
+          <Sidebar />
+        </el-aside>
         <el-container>
           <el-main>
             <slot />
           </el-main>
         </el-container>
       </el-container>
-      <el-footer>Footer</el-footer>
+      <el-footer>
+        <Footer />
+      </el-footer>
     </el-container>
   </div>
 </template>
+
 
 <script setup>
 import Header from '~/components/Header/Header.vue';
@@ -37,15 +42,17 @@ import Header from '~/components/Header/Header.vue';
 
 }
 
-.el-footer {
-  background: #fff;
+
+.el-aside {
+  text-align: center;
+  line-height: 200px;
+  position: fixed;
+  z-index: 10;
+  background: #000;
+  height: 100%;
+  width: 64px;
+
 }
-
-.main-container {
-  /* padding-top: 37px; */
-}
-
-
 
 .el-main {
   padding: 0;
