@@ -4,13 +4,13 @@
     <div :class="$style.footer__column" id="fc2">
       <ul>
         <li>
-          <a href="tel:+74951812277">+7&nbsp;(495)&nbsp;181&nbsp;22&nbsp;77</a>
+          <a :class="$style.footer__contacts" href="tel:+74951812277">+7&nbsp;(495)&nbsp;181&nbsp;22&nbsp;77</a>
         </li>
         <li>
           <p>(МОСКВА, ТВЕРЬ)</p>
         </li>
         <li>
-          <a href="tel:+78126352277">+7&nbsp;(812)&nbsp;635&nbsp;22&nbsp;77</a>
+          <a :class="$style.footer__contacts" href="tel:+78126352277">+7&nbsp;(812)&nbsp;635&nbsp;22&nbsp;77</a>
         </li>
         <li>
           <p>(САНКТ-ПЕТЕРБУРГ)</p>
@@ -18,7 +18,7 @@
       </ul>
     </div>
     <div :class="$style.footer__column" id="fc3">
-      <ul class="footer__list" flex>
+      <ul :class="$style.footer__list" flex>
         <li>
           <a href="https://vk.com/" target="_blank" rel="noopener noreferrer"><img class="footer__social-img"
               src="./images/Vk .svg" alt="VK Соцсеть">
@@ -43,7 +43,7 @@
       </span>
     </div>
     <div :class="$style.footer__column" id="fc5"> <button @click="scrollToTop"
-        class="scroll-to-top-button">НАВЕРХ</button></div>
+        :class="$style.scrollToTopButton">НАВЕРХ</button></div>
   </footer>
 </template>
 

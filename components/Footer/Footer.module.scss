@@ -12,6 +12,7 @@
 
 /* Стили для колонок */
 .footer__column {
+  align-items: start;
   margin: 48px 30px;
 }
 
@@ -20,9 +21,10 @@
   justify-content: flex-start;
 }
 
-.footer__column--contacts {
+.footer__contacts {
   display: flex;
   flex-direction: column;
+  color: var.$accent-color3;
 }
 
 .footer__column--social {
@@ -89,4 +91,9 @@
 
 /* Стили для copyright текста */
 .footer__copyright {
+}
+
+.footer__list {
+  display: flex;
+  gap: 80px;
 }

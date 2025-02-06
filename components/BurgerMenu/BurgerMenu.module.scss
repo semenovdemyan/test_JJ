@@ -1,15 +1,14 @@
+@use '../../assets/scss/variables.scss' as var;
+
 .burger-button {
   display: none;
   background: transparent;
   border: none;
   padding: 0;
   font-size: 24px;
-  cursor: pointer; // ✅ Улучшает UX
-  display: flex; // ✅ Центрируем иконку
+  display: flex;
   align-items: center;
   justify-content: center;
-  transition: opacity 0.2s ease-in-out; // ✅ Плавный эффект при наведении
-
   @media (max-width: 768px) {
     display: flex;
   }
@@ -25,5 +24,5 @@
 
 .burger-button :global(.el-icon) {
   // ✅ Используем глобальный селектор для иконки Element Plus
-  color: #c43939;
+  color: var.$accent-color4;
 }
