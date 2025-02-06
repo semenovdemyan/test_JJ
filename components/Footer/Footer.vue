@@ -42,11 +42,18 @@
         joki-joya.ru
       </span>
     </div>
-    <div :class="$style.footer__column" id="fc5"><a href="#">НАВЕРХ</a></div>
+    <div :class="$style.footer__column" id="fc5"> <button @click="scrollToTop"
+        class="scroll-to-top-button">НАВЕРХ</button></div>
   </footer>
 </template>
 
 <script setup lang="ts">
+const scrollToTop = () => {
+  window.scrollTo({
+    top: 0,
+    behavior: 'smooth'
+  });
+};
 </script>
 
 <style module src="./Footer.module.scss" lang="scss" />
