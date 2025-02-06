@@ -7,13 +7,13 @@
           <a :class="$style.footer__contacts" href="tel:+74951812277">+7&nbsp;(495)&nbsp;181&nbsp;22&nbsp;77</a>
         </li>
         <li>
-          <p>(МОСКВА, ТВЕРЬ)</p>
+          <p :class="$style.footer__cities">(МОСКВА, ТВЕРЬ)</p>
         </li>
         <li>
           <a :class="$style.footer__contacts" href="tel:+78126352277">+7&nbsp;(812)&nbsp;635&nbsp;22&nbsp;77</a>
         </li>
         <li>
-          <p>(САНКТ-ПЕТЕРБУРГ)</p>
+          <p :class="$style.footer__cities">(САНКТ-ПЕТЕРБУРГ)</p>
         </li>
       </ul>
     </div>
@@ -36,7 +36,7 @@
       </ul>
     </div>
     <div :class="$style.footer__column" id="fc4">
-      <span>
+      <span :class="$style.footer__copyright">
         Joki Joya ©<br>
         2023<br>
         joki-joya.ru
