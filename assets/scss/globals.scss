@@ -71,7 +71,16 @@ body {
 * {
   transition: opacity 0.4s ease;
 }
-.btn {
+.btn,
+button {
   cursor: pointer;
-  
+  padding: 9px 26px;
+  border-radius: 62px;
+  border: 2px solid var.$bg-color;
+  color: var.$bg-color;
+  background: var.$tr;
+  font-size: 22px;
+  font-weight: 500;
+  letter-spacing: 3%;
+  line-height: 24px;
 }
